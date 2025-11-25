@@ -1,0 +1,33 @@
+{
+  "name": "advent-of-code-2025",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "email": "jcantosm@proton.me",
+    "name": "Jaime Cantos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hydradox/advent-of-code-2025.git"
+  },
+  "scripts": {
+    "dev": "bun --watch run src/index.ts",
+    "install:deps": "bun install",
+    "lint": "bunx --bun eslint --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-unicorn": "^62.0.0",
+    "globals": "^16.5.0",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0"
+  },
+  "dependencies": {
+    "winston": "^3.18.3"
+  }
+}
